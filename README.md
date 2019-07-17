@@ -1,12 +1,12 @@
 # invest_simulator
 Simulador de Investimento em VueJS
 
-# Tecnologias utilizadas
+### Tecnologias utilizadas
 
 - VueJS
 - Vuex
 
-# Instalação e exceução
+### Instalação e exceução
 
 ```bash
 npm install
