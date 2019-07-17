@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="bg"></div>
-    <img src="../assets/logo-white.png" width="150">
+    <img class="logo" src="../assets/logo-white.png" width="150" />
     <p class="lbl-simulate">Simulador</p>
     <form class="home" v-on:submit="simular()">
       <div class="row">
@@ -129,7 +129,5 @@ option {
   font-size: 22px;
 }
 
-.logo {
-  padding: 15px;
-}
+
 </style>

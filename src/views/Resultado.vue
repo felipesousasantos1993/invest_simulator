@@ -1,12 +1,14 @@
 <template>
   <div class="resultado">
     <div class="bg"></div>
-    <img src="../assets/logo-white.png" width="150" />
-    <h1>Olá {{nome}}, juntando R$ {{mensalidade | toCurrency}} todo mês, você terá {{resultado | toCurrency}} em {{tempo}} ano(s).</h1>
+    <img class="logo" src="../assets/logo-white.png" width="150" />
+    <h1
+      class="result"
+    >Olá {{nome}}, juntando R$ {{mensalidade | toCurrency}} todo mês, você terá {{resultado | toCurrency}} em {{tempo}} ano(s).</h1>
 
     <div class="row">
       <div class="col-lg-12">
-        <router-link to="/" class="btn-action" tag="button">Simular Novamente</router-link>
+        <router-link to="/" class="btn-action btn-m-top" tag="button">Simular Novamente</router-link>
       </div>
     </div>
   </div>
@@ -36,5 +38,11 @@ export default {
 <style scoped>
 h1 {
   color: #fff;
+}
+.result {
+  margin: 80px auto;
+}
+.btn-m-top {
+  margin-top: 50px;
 }
 </style>

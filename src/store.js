@@ -9,7 +9,7 @@ import axios from 'axios';
 const URL_API = 'http://api.mathjs.org/v4/';
 
 export default new Vuex.Store({
-	strict: true,
+	strict: false,
 	state: {
 		form: {
 			nome: '',

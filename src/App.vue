@@ -5,6 +5,16 @@
 </template>
 
 <style>
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+.logo {
+  margin-top: 120px;
+}
 #app {
   font-family: "Rubik", sans-serif;
   -webkit-font-smoothing: antialiased;
