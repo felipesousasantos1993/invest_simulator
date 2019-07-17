@@ -12,3 +12,5 @@ Simulador de Investimento em VueJS
 npm install
 npm run serve
 ```
+
+Acesse ``` http://localhost:8080 ```
