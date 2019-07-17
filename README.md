@@ -5,8 +5,5 @@ Simulador de Investimento em VueJS
 
 ```bash
 npm install
-```
-
-```bash
 npm run serve
 ```
